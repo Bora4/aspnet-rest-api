@@ -46,7 +46,7 @@ namespace DoktorSelector.DB
             string myspecialty;
             string myhospital;
             DoktorItem mydoc;
-            var connString = "Server=127.0.0.1;Port=5432;Database=doktordb;User Id=doktorlar;Password=bora99bora;";
+            var connString = "Server=127.0.0.1;Port=5432;Database=doktordb;User Id=doktorlar;Password=password;";
 
             using var conn = new NpgsqlConnection(connString);
             conn.Open();

@@ -25,7 +25,7 @@ namespace DoktorSelector
 
             services.AddControllers();
 
-            string sqlConnectionString = "Server=127.0.0.1;Port=5432;Database=doktordb;User Id=doktorlar;Password=bora99bora;";
+            string sqlConnectionString = "Server=127.0.0.1;Port=5432;Database=doktordb;User Id=doktorlar;Password=password;";
 
             services.AddDbContext<DoktorContext>(options => options.UseNpgsql(sqlConnectionString));
 
